@@ -1,5 +1,5 @@
 import "./App.scss";
-import Button from "./components/Button";
+import Button from "./lib/components/Button";
 
 function App() {
   return (
