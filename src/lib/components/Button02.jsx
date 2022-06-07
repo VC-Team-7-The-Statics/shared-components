@@ -1,14 +1,16 @@
 import React from "react";
 import "../styles/_button.scss";
+import "../styles/_reset.scss";
+import "../styles/_common.scss";
 
-const Button = (props) => {
+const Button02 = (props) => {
   const { ...others } = props;
 
   return (
-    <div className="button-container">
+    <div className="button02-container">
       <button className="button" {...others} />
     </div>
   );
 };
 
-export default Button;
+export default Button02;

@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/_textarea.scss";
+import "../styles/_reset.scss";
+import "../styles/_common.scss";
 
 const Textarea = (props) => {
   const { ...others } = props;

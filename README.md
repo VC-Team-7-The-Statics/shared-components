@@ -1,17 +1,50 @@
 # Shared Components
 
-공통 컴포넌트를 저장하는 리포지토리 입니다.
+Shared components for team 'The Statics' at Vanilla Coding bootcamp.
+
+## Announcement
+
+```
+- Storybook update is coming in about 1 week.
+- Components image available below.
+```
+
+## Component Image
+
+> https://imgur.com/a/kS65KaA
+
+## Styles
+
+```
+Default styles
+- font-style: "Roboto"
+- font-size: 12px;
+
+<Title />
+- font-size: 15px;
+- font-weight: bolder;
+
+<Button />
+- font-size: 13px;
+```
 
 ## Components
 
+- Title
 - Input
 - Select
 - Button
-- Checkbox
+- Checkboxes
 - Textarea
 - RequestCard
 
 ## How to use
+
+### Title
+
+```
+<Title value="This is title!" />
+```
 
 ### Input
 
@@ -33,15 +66,14 @@
 ### Button
 
 ```
-<Button type="button">등록하기</Button>
+<Button01 type="button">등록하기</Button01>
+<Button02 type="button">등록하기</Button02>
 ```
 
-### Checkbox
+### Checkboxes
 
 ```
-<Checkbox value="html"></Checkbox>
-<Checkbox value="css"></Checkbox>
-<Checkbox value="js"></Checkbox>
+<Checkboxes values={["html", "css", "js"]} />
 ```
 
 ### Textarea

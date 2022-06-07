@@ -1,6 +1,8 @@
 import React from "react";
 import Select from "./Select";
 import Option from "./Option";
+import "../styles/_reset.scss";
+import "../styles/_common.scss";
 
 const Selectbox = () => {
   return (

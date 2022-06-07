@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/_checkbox.scss";
+import "../styles/_reset.scss";
+import "../styles/_common.scss";
 
 const Checkbox = (props) => {
   const { value, ...others } = props;
@@ -8,7 +10,7 @@ const Checkbox = (props) => {
     <div className="checkbox-container">
       <label>
         <input type="checkbox" className="checkbox" value={value} {...others} />
-        <span className="value">{value}</span>
+        <div className="value">{value}</div>
       </label>
     </div>
   );

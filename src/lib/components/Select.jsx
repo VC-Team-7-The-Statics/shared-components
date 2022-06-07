@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "../styles/_select.scss";
+import "../styles/_reset.scss";
+import "../styles/_common.scss";
 
 const Select = (props) => {
   const { defaultValue, ...others } = props;
