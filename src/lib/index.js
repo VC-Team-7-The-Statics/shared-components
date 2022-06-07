@@ -3,6 +3,7 @@ import Button02 from "./components/Button02";
 import Select from "./components/Select";
 import Option from "./components/Option";
 import Input01 from "./components/Input01";
+import Input02 from "./components/Input02";
 import Checkboxes from "./components/Checkboxes";
 import Textarea from "./components/Textarea";
 import RequestCard from "./components/RequestCard";
@@ -14,6 +15,7 @@ export {
   Select,
   Option,
   Input01,
+  Input02,
   Checkboxes,
   Textarea,
   RequestCard,
