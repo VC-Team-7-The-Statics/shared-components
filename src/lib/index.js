@@ -8,6 +8,8 @@ import Checkboxes from "./components/Checkboxes";
 import Textarea from "./components/Textarea";
 import RequestCard from "./components/RequestCard";
 import Title from "./components/Title";
+import ChatBalloon from "./components/ChatBalloon";
+import ChatCard from "./components/ChatCard";
 
 export {
   Button01,
@@ -20,4 +22,6 @@ export {
   Textarea,
   RequestCard,
   Title,
+  ChatBalloon,
+  ChatCard,
 };
