@@ -3,7 +3,8 @@ import Button01 from "./lib/components/Button01";
 import Button02 from "./lib/components/Button02";
 import Select from "./lib/components/Select";
 import Option from "./lib/components/Option";
-import Input from "./lib/components/Input";
+import Input01 from "./lib/components/Input01";
+import Input02 from "./lib/components/Input02";
 import Checkboxes from "./lib/components/Checkboxes";
 import Textarea from "./lib/components/Textarea";
 import RequestCard from "./lib/components/RequestCard";
@@ -22,10 +23,12 @@ function App() {
         </div>
       </div>
       <div className="component-container">
-        <h2 className="title">Input</h2>
+        <h2 className="title">Input01</h2>
         <div className="content">
-          <Input placeholder="입력해주세요." />
-          <Input placeholder="입력해주세요." />
+          <Input01 placeholder="입력해주세요." />
+          <Input01 placeholder="입력해주세요." />
+          <Input02 placeholder="입력해주세요." />
+          <Input02 placeholder="입력해주세요." />
         </div>
       </div>
       <div className="component-container">

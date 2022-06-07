@@ -3,14 +3,14 @@ import "../styles/_input.scss";
 import "../styles/_reset.scss";
 import "../styles/_common.scss";
 
-const Input = (props) => {
+const Input01 = (props) => {
   const { ...others } = props;
 
   return (
-    <div className="input-container">
+    <div className="input01-container">
       <input type="input" className="input" {...others} />
     </div>
   );
 };
 
-export default Input;
+export default Input01;
