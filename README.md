@@ -1,6 +1,32 @@
 # Shared Components
 
-공통 컴포넌트를 저장하는 리포지토리 입니다.
+Shared components for team 'The Statics' at Vanilla Coding bootcamp.
+
+## Announcement
+
+```
+- Storybook update is coming in about 1 week.
+- Components image available below.
+```
+
+## Component Image
+
+> https://imgur.com/a/kS65KaA
+
+## Styles
+
+```
+Default styles
+- font-style: "Roboto"
+- font-size: 12px;
+
+<Title />
+- font-size: 15px;
+- font-weight: bolder;
+
+<Button />
+- font-size: 13px;
+```
 
 ## Components
 
