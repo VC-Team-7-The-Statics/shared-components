@@ -10,7 +10,9 @@ const Checkbox = (props) => {
     <div className="checkbox-container">
       <label>
         <input type="checkbox" className="checkbox" value={value} {...others} />
-        <div className="value">{value}</div>
+        <div className="value" {...others}>
+          {value}
+        </div>
       </label>
     </div>
   );

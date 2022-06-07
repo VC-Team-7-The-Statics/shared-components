@@ -8,6 +8,8 @@ import Checkboxes from "./lib/components/Checkboxes";
 import Textarea from "./lib/components/Textarea";
 import RequestCard from "./lib/components/RequestCard";
 import Title from "./lib/components/Title";
+import ChatCard from "./lib/components/ChatCard";
+import ChatBalloon from "./lib/components/ChatBalloon";
 
 function App() {
   return (
@@ -78,6 +80,23 @@ function App() {
             title="안녕하세요 고수님~"
             content="채팅 기능을 못만들어서 연락드렸어요"
           ></RequestCard>
+        </div>
+      </div>
+      <div className="component-container">
+        <h2 className="title">Chat Card</h2>
+        <div className="content">
+          <ChatCard
+            profileImage={"https://randomuser.me/api/portraits/men/3.jpg"}
+            name="공유정"
+            chatText="첫 눈에 반했어요!"
+            time="2022/03/12 13:00:43"
+          />
+        </div>
+      </div>
+      <div className="component-container">
+        <h2 className="title">Chat Balloon</h2>
+        <div className="content">
+          <ChatBalloon>{"hello"}</ChatBalloon>
         </div>
       </div>
       {/* <div className="component-container">
