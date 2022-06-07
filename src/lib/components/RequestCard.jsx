@@ -1,9 +1,11 @@
 import React from "react";
 import "../styles/_requestCard.scss";
-import Button from "./Button";
+import "../styles/_reset.scss";
+import "../styles/_common.scss";
+import Button02 from "./Button02";
 
 const RequestCard = (props) => {
-  const { requester, title, content, ...others } = props;
+  const { requester, title, content } = props;
 
   return (
     <div className="request-card">
@@ -14,7 +16,7 @@ const RequestCard = (props) => {
       <details className="request">
         <summary className="title">{title}</summary>
         <p className="content">{content}</p>
-        <Button type="button">대화 시작하기</Button>
+        <Button02 type="button">대화 시작하기</Button02>
       </details>
     </div>
   );

@@ -4,14 +4,21 @@
 
 ## Components
 
+- Title
 - Input
 - Select
 - Button
-- Checkbox
+- Checkboxes
 - Textarea
 - RequestCard
 
 ## How to use
+
+### Title
+
+```
+<Title value="This is title!" />
+```
 
 ### Input
 
@@ -33,15 +40,14 @@
 ### Button
 
 ```
-<Button type="button">등록하기</Button>
+<Button01 type="button">등록하기</Button01>
+<Button02 type="button">등록하기</Button02>
 ```
 
-### Checkbox
+### Checkboxes
 
 ```
-<Checkbox value="html"></Checkbox>
-<Checkbox value="css"></Checkbox>
-<Checkbox value="js"></Checkbox>
+<Checkboxes values={["html", "css", "js"]} />
 ```
 
 ### Textarea
