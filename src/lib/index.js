@@ -1,5 +1,5 @@
-import Button01 from "./components/Button";
-import Button02 from "./components/Button";
+import Button01 from "./components/Button01";
+import Button02 from "./components/Button02";
 import Select from "./components/Select";
 import Option from "./components/Option";
 import Input from "./components/Input";
