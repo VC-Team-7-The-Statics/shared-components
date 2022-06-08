@@ -2,7 +2,7 @@
   "name": "@the-statics/shared-components",
   "description": "Shared components for team 'The Statics' at Vanilla Coding bootcamp.",
   "author": "The Statics",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "private": false,
   "main": "dist/index.js",
   "files": [
