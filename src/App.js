@@ -11,6 +11,7 @@ import RequestCard from "./lib/components/RequestCard";
 import Title from "./lib/components/Title";
 import ChatCard from "./lib/components/ChatCard";
 import ChatBalloon from "./lib/components/ChatBalloon";
+import ExpandableInput from "./lib/components/ExpandableInput";
 
 function App() {
   return (
@@ -100,6 +101,12 @@ function App() {
         <h2 className="title">Chat Balloon</h2>
         <div className="content">
           <ChatBalloon>{"hello"}</ChatBalloon>
+        </div>
+      </div>
+      <div className="component-container">
+        <h2 className="title">ExpandableInput</h2>
+        <div className="content">
+          <ExpandableInput />
         </div>
       </div>
       {/* <div className="component-container">

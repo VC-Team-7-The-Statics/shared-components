@@ -6,12 +6,7 @@ Shared components for team 'The Statics' at Vanilla Coding bootcamp.
 
 ```
 - Storybook update is coming in about 1 week.
-- Components image available below.
 ```
-
-## Component Image
-
-> https://imgur.com/a/kS65KaA
 
 ## Styles
 
