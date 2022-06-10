@@ -8,7 +8,9 @@ const ChatBalloon = (props) => {
 
   return (
     <div className="chat-balloon-container">
-      <p className="text" {...others}></p>
+      <p className="text" {...others}>
+        {text}
+      </p>
     </div>
   );
 };

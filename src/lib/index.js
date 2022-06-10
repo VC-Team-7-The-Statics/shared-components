@@ -5,11 +5,13 @@ import Option from "./components/Option";
 import Input01 from "./components/Input01";
 import Input02 from "./components/Input02";
 import Checkboxes from "./components/Checkboxes";
+import Checkbox from "./components/Checkbox";
 import Textarea from "./components/Textarea";
 import RequestCard from "./components/RequestCard";
 import Title from "./components/Title";
-import ChatBalloon from "./components/ChatBalloon";
 import ChatCard from "./components/ChatCard";
+import ChatBalloon from "./components/ChatBalloon";
+import Subtitle from "./components/Subtitle";
 
 export {
   Button01,
@@ -24,4 +26,6 @@ export {
   Title,
   ChatBalloon,
   ChatCard,
+  Checkbox,
+  Subtitle,
 };

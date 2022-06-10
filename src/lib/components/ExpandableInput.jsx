@@ -6,9 +6,7 @@ import Input01 from "./Input01";
 import Button01 from "./Button01";
 
 const ExpandableInput = (props) => {
-  const [inputs, setInputs] = useState([
-    {}
-  ])
+  const [inputs, setInputs] = useState([{}]);
   const { ...others } = props;
   const addInput = () => {
     console.log("add");
