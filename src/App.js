@@ -66,15 +66,15 @@ function App() {
         </div>
       </div>
       <div className="component-container">
-        <h2 className="title">Checkboxes</h2>
-        <div className="content">
-          <Checkboxes values={["html", "css", "js"]} />
-        </div>
-      </div>
-      <div className="component-container">
         <h2 className="title">Checkbox</h2>
         <div className="content">
           <Checkbox value="checkbox"></Checkbox>
+        </div>
+      </div>
+      <div className="component-container">
+        <h2 className="title">Checkboxes</h2>
+        <div className="content">
+          <Checkboxes values={["html", "css", "js"]} />
         </div>
       </div>
       <div className="component-container">

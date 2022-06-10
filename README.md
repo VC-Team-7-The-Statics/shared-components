@@ -41,10 +41,17 @@ Default styles
 <Title value="This is title!" />
 ```
 
+### Subtitle
+
+```
+<Subtitle value="This is subtitle!" />
+```
+
 ### Input
 
 ```
-<Input placeholder="입력해주세요." />
+<Input01 placeholder="입력해주세요." />
+<Input02 placeholder="입력해주세요." />
 ```
 
 ### Select
@@ -63,6 +70,12 @@ Default styles
 ```
 <Button01 type="button">등록하기</Button01>
 <Button02 type="button">등록하기</Button02>
+```
+
+### Checkbox
+
+```
+<Checkbox value="checkbox"></Checkbox>
 ```
 
 ### Checkboxes
@@ -85,4 +98,21 @@ Default styles
   title="안녕하세요 고수님~"
   content="채팅 기능을 못만들어서 연락드렸어요"
 />
+```
+
+### ChatCard
+
+```
+<ChatCard
+  profileImage={"https://randomuser.me/api/portraits/men/3.jpg"}
+  name="공유정"
+  chatText="첫 눈에 반했어요!"
+  time="2022/03/12 13:00:43"
+/>
+```
+
+### ChatBalloon
+
+```
+<ChatBalloon text="hello"></ChatBalloon>
 ```
