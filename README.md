@@ -5,6 +5,8 @@ Shared components for team 'The Statics' at Vanilla Coding bootcamp.
 ## Announcement
 
 ```
+- font-size that affects the entire pages are now fixed.
+- reset.css is removed.
 - Storybook update is coming in about 1 week.
 ```
 
@@ -25,13 +27,20 @@ Default styles
 
 ## Components
 
-- Title
-- Input
+- Button01
+- Button02
 - Select
-- Button
+- Option
+- Input01
+- Input02
 - Checkboxes
+- Checkbox
 - Textarea
 - RequestCard
+- Title
+- ChatCard
+- ChatBalloon
+- Subtitle
 
 ## How to use
 

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../styles/_input.scss";
-import "../styles/_reset.scss";
 import "../styles/_common.scss";
 import Input01 from "./Input01";
 import Button01 from "./Button01";

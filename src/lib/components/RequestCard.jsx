@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/_requestCard.scss";
-import "../styles/_reset.scss";
 import "../styles/_common.scss";
 import Button02 from "./Button02";
 
