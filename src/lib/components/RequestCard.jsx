@@ -15,7 +15,6 @@ const RequestCard = (props) => {
       <details className="request">
         <summary className="title">{title}</summary>
         <p className="content">{content}</p>
-        <Button02 type="button">대화 시작하기</Button02>
       </details>
     </div>
   );

@@ -8,7 +8,7 @@ const ChatCard = (props) => {
   return (
     <div className="chat-card-container">
       <div className="image-container">
-        <img src={profileImage} alt="profile image" />
+        <img src={profileImage} alt="profile" />
       </div>
       <div className="content">
         <h2 className="name">{name}</h2>
