@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/_requestCard.scss";
 import "../styles/_common.scss";
-import Button02 from "./Button02";
 
 const RequestCard = (props) => {
   const { requester, title, content } = props;
