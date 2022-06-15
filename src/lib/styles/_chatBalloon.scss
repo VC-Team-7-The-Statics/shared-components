@@ -1,15 +1,36 @@
 $background-color: #d9d9d9;
 
 .chat-balloon-container {
-  position: relative;
+  //   position: relative;
   background: $background-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
+  // width: 100%;
+
+  //   + .chat-balloon-container {
+  //     margin-top: 20px;
+  //   }
+
+  //   &.left {
+  //     margin-right: 45%;
+  //     margin-left: 10px;
+
+  //     .date {
+  //       position: absolute;
+  //       bottom: 0;
+  //       right: -150px;
+  //     }
+  //   }
+
+  //   &.right {
+  //     margin-left: 45%;
+  //     margin-right: 10px;
+  //   }
 
   .text {
-    box-sizing: border-box;
-    padding: 20px;
-    display: block;
-    width: 100%;
+    // box-sizing: border-box;
+    // padding: 20px;
+    display: inline-block;
+    // width: 100%;
   }
 }

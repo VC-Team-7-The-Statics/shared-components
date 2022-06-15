@@ -113,7 +113,16 @@ function App() {
       <div className="component-container">
         <h2 className="title">Chat Balloon</h2>
         <div className="content">
-          <ChatBalloon text="hello"></ChatBalloon>
+          <ChatBalloon
+            text="hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello"
+            date="2022/03/12 13:00:43"
+            className="left"
+          ></ChatBalloon>
+          <ChatBalloon
+            text="hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello"
+            date="2022/03/12 13:00:43"
+            className="right"
+          ></ChatBalloon>
         </div>
       </div>
       {/* <div className="component-container">

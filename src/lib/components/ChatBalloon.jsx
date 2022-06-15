@@ -3,13 +3,12 @@ import "../styles/_chatBalloon.scss";
 import "../styles/_common.scss";
 
 const ChatBalloon = (props) => {
-  const { text, ...others } = props;
+  const { text, date, className, ...others } = props;
 
   return (
-    <div className="chat-balloon-container">
-      <p className="text" {...others}>
-        {text}
-      </p>
+    <div className={`chat-balloon-container ${className}`} {...others}>
+      <div className="text">{text}</div>
+      <span className="date">{date}</span>
     </div>
   );
 };

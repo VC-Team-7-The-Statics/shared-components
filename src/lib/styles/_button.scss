@@ -20,11 +20,7 @@ $button02-font-color: #ffffff;
   min-height: 50px;
   line-height: 50px;
   text-align: center;
-
-  + .button01-container,
-  + .button02-container {
-    margin-top: 5px;
-  }
+  margin: 10px 0;
 }
 
 .button01-container {
