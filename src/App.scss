@@ -1,6 +1,10 @@
 $basic-font-size: 12px;
 $title-font-size: 15px;
 
+html {
+  font-family: "Nanum Gothic", sans-serif !important;
+}
+
 .container {
   padding: 20px;
 }

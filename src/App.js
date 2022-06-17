@@ -5,14 +5,12 @@ import Select from "./lib/components/Select";
 import Option from "./lib/components/Option";
 import Input01 from "./lib/components/Input01";
 import Input02 from "./lib/components/Input02";
-import Checkboxes from "./lib/components/Checkboxes";
-import Checkbox from "./lib/components/Checkbox";
 import Textarea from "./lib/components/Textarea";
-import RequestCard from "./lib/components/RequestCard";
 import Title from "./lib/components/Title";
-import ChatCard from "./lib/components/ChatCard";
-import ChatBalloon from "./lib/components/ChatBalloon";
 import Subtitle from "./lib/components/Subtitle";
+import RequestCard from "./lib/components/RequestCard";
+import UserCard from "./lib/components/UserCard";
+import Chatlist from "./lib/components/Chatlist";
 
 function App() {
   return (
@@ -66,18 +64,6 @@ function App() {
         </div>
       </div>
       <div className="component-container">
-        <h2 className="title">Checkbox</h2>
-        <div className="content">
-          <Checkbox value="checkbox"></Checkbox>
-        </div>
-      </div>
-      <div className="component-container">
-        <h2 className="title">Checkboxes</h2>
-        <div className="content">
-          <Checkboxes values={["html", "css", "js"]} />
-        </div>
-      </div>
-      <div className="component-container">
         <h2 className="title">Textarea</h2>
         <div className="content">
           <Textarea placeholder="내용을 입력해주세요." />
@@ -85,44 +71,31 @@ function App() {
         </div>
       </div>
       <div className="component-container">
-        <h2 className="title">Request Card</h2>
+        <h2 className="title">RequestCard</h2>
         <div className="content">
           <RequestCard
-            requester="ken"
-            title="안녕하세요 고수님~"
-            content="채팅 기능을 못만들어서 연락드렸어요"
-          ></RequestCard>
-          <RequestCard
-            requester="ken"
-            title="안녕하세요 고수님~"
-            content="채팅 기능을 못만들어서 연락드렸어요"
-          ></RequestCard>
-        </div>
-      </div>
-      <div className="component-container">
-        <h2 className="title">Chat Card</h2>
-        <div className="content">
-          <ChatCard
-            profileImage={"https://randomuser.me/api/portraits/men/3.jpg"}
-            name="공유정"
-            chatText="첫 눈에 반했어요!"
-            time="2022/03/12 13:00:43"
+            name="김진호"
+            title="socket io로 채팅 기능 구현하는 게 어려워 커피챗 요청 드립니다."
+            content="저 채팅 기능 같이 만들어주시겠어요?"
           />
         </div>
       </div>
       <div className="component-container">
-        <h2 className="title">Chat Balloon</h2>
+        <h2 className="title">UserCard</h2>
         <div className="content">
-          <ChatBalloon
-            text="hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello"
-            date="2022/03/12 13:00:43"
-            className="left"
-          ></ChatBalloon>
-          <ChatBalloon
-            text="hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello"
-            date="2022/03/12 13:00:43"
-            className="right"
-          ></ChatBalloon>
+          <UserCard
+            name="김진호"
+            image="https://randomuser.me/api/portraits/men/31.jpg"
+          />
+        </div>
+      </div>
+      <div className="component-container">
+        <h2 className="title">Chatlist</h2>
+        <div className="content">
+          <Chatlist
+            image="https://randomuser.me/api/portraits/men/31.jpg"
+            name="김진호"
+          />
         </div>
       </div>
       {/* <div className="component-container">
