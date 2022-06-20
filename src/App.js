@@ -73,29 +73,60 @@ function App() {
       <div className="component-container">
         <h2 className="title">RequestCard</h2>
         <div className="content">
-          <RequestCard
-            name="김진호"
-            title="socket io로 채팅 기능 구현하는 게 어려워 커피챗 요청 드립니다."
-            content="저 채팅 기능 같이 만들어주시겠어요?"
-          />
+          <ul>
+            <li>
+              <RequestCard
+                name="김진호"
+                title="socket io로 채팅 기능 구현하는 게 어려워 커피챗 요청 드립니다."
+                content="저 채팅 기능 같이 만들어주시겠어요?"
+              />
+            </li>
+            <li>
+              <RequestCard
+                name="김진호"
+                title="socket io로 채팅 기능 구현하는 게 어려워 커피챗 요청 드립니다."
+                content="저 채팅 기능 같이 만들어주시겠어요?"
+              />
+            </li>
+          </ul>
         </div>
       </div>
       <div className="component-container">
         <h2 className="title">UserCard</h2>
         <div className="content">
-          <UserCard
-            name="김진호"
-            image="https://randomuser.me/api/portraits/men/31.jpg"
-          />
+          <ul>
+            <li>
+              <UserCard
+                name="김진호"
+                image="https://randomuser.me/api/portraits/men/31.jpg"
+              />
+            </li>
+            <li>
+              <UserCard
+                name="김진호"
+                image="https://randomuser.me/api/portraits/men/31.jpg"
+              />
+            </li>
+          </ul>
         </div>
       </div>
       <div className="component-container">
         <h2 className="title">Chatlist</h2>
         <div className="content">
-          <Chatlist
-            image="https://randomuser.me/api/portraits/men/31.jpg"
-            name="김진호"
-          />
+          <ul>
+            <li>
+              <Chatlist
+                image="https://randomuser.me/api/portraits/men/31.jpg"
+                name="김진호"
+              />
+            </li>
+            <li>
+              <Chatlist
+                image="https://randomuser.me/api/portraits/men/31.jpg"
+                name="김진호"
+              />
+            </li>
+          </ul>
         </div>
       </div>
       {/* <div className="component-container">
