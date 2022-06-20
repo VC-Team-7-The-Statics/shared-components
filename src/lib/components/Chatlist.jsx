@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "../styles/Chatlist.module.scss";
+import styles from "../styles/ChatList.module.scss";
 
-function Chatlist({ image, name, onClickHandler }) {
+function ChatList({ image, name, onClickHandler }) {
   return (
     <div className={styles["chat-card-container"]}>
       <div className={styles["image-container"]}>
@@ -15,4 +15,4 @@ function Chatlist({ image, name, onClickHandler }) {
   );
 }
 
-export default Chatlist;
+export default ChatList;

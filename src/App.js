@@ -10,7 +10,7 @@ import Title from "./lib/components/Title";
 import Subtitle from "./lib/components/Subtitle";
 import RequestCard from "./lib/components/RequestCard";
 import UserCard from "./lib/components/UserCard";
-import Chatlist from "./lib/components/Chatlist";
+import ChatList from "./lib/components/ChatList";
 
 function App() {
   return (
@@ -111,17 +111,17 @@ function App() {
         </div>
       </div>
       <div className="component-container">
-        <h2 className="title">Chatlist</h2>
+        <h2 className="title">ChatList</h2>
         <div className="content">
           <ul>
             <li>
-              <Chatlist
+              <ChatList
                 image="https://randomuser.me/api/portraits/men/31.jpg"
                 name="김진호"
               />
             </li>
             <li>
-              <Chatlist
+              <ChatList
                 image="https://randomuser.me/api/portraits/men/31.jpg"
                 name="김진호"
               />

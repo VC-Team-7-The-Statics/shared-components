@@ -9,7 +9,7 @@ import Title from "./components/Title";
 import Subtitle from "./components/Subtitle";
 import RequestCard from "./components/RequestCard";
 import UserCard from "./components/UserCard";
-import Chatlist from "./components/Chatlist";
+import ChatList from "./components/ChatList";
 
 export {
   Button01,
@@ -23,5 +23,5 @@ export {
   Subtitle,
   RequestCard,
   UserCard,
-  Chatlist,
+  ChatList,
 };

@@ -1,16 +1,16 @@
 import React from "react";
-import Chatlist from "./Chatlist";
+import ChatList from "./ChatList";
 
-const ChatlistStory = {
-  title: "Chatlist",
-  component: Chatlist,
+const ChatListStory = {
+  title: "ChatList",
+  component: ChatList,
 };
 
-export default ChatlistStory;
+export default ChatListStory;
 
 export const Default = () => (
   <>
-    <Chatlist
+    <ChatList
       image="https://randomuser.me/api/portraits/men/31.jpg"
       name="김진호"
     />
