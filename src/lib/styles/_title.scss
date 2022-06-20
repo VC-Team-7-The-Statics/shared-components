@@ -1,10 +1,8 @@
-$font-size: 15px;
-
 .title-container {
-  display: inline-block;
+  display: block;
 
   .title {
-    font-size: $font-size;
     font-weight: bolder;
+    font-size: 30px;
   }
 }

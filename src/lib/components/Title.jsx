@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/_title.scss";
-import "../styles/_reset.scss";
 import "../styles/_common.scss";
 
 const Title = (props) => {

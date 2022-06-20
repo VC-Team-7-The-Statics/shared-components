@@ -9,6 +9,7 @@
     "react-app",
     "plugin:prettier/recommended"
   ],
+  "ignorePatterns": ["!**/*", "../../.storybook/*"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
