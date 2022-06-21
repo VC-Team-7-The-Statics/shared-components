@@ -1,3 +1,19 @@
+$basic-font-size: 12px;
+$title-font-size: 15px;
+
+html {
+  font-family: "Nanum Gothic", sans-serif !important;
+}
+
 .container {
-  font: blue;
+  padding: 20px;
+}
+
+.component-container {
+  text-align: left;
+  padding: 20px 0;
+
+  & > .content {
+    margin-top: 20px;
+  }
 }
